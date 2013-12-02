@@ -1,0 +1,334 @@
+/* line 4, ../../sass/find-me.scss */
+body {
+  /** navigation **/
+}
+/* line 5, ../../sass/find-me.scss */
+body a {
+  color: #9d261d;
+}
+/* line 8, ../../sass/find-me.scss */
+body h2, body .navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+}
+/* line 11, ../../sass/find-me.scss */
+body .navbar-brand {
+  font-weight: 800;
+  font-size: 28px;
+}
+/* line 16, ../../sass/find-me.scss */
+body input.has-error, body textarea.has-error, body select.has-error {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* line 23, ../../sass/find-me.scss */
+body label.has-error {
+  display: none !important;
+}
+/* line 29, ../../sass/find-me.scss */
+body .navbar.navbar-inverse {
+  background-color: #9d261d;
+  border-color: #721c15;
+}
+/* line 32, ../../sass/find-me.scss */
+body .navbar.navbar-inverse a.navbar-brand, body .navbar.navbar-inverse a {
+  color: #fff;
+}
+/* line 36, ../../sass/find-me.scss */
+body .navbar.navbar-inverse .active a, body .navbar.navbar-inverse .active a:hover {
+  background-color: #b32b21;
+}
+/* line 42, ../../sass/find-me.scss */
+body .navbar .pull-right a {
+  background-color: #b32b21;
+  border-color: #90231b;
+}
+/* line 45, ../../sass/find-me.scss */
+body .navbar .pull-right a:hover {
+  background-color: #872119;
+}
+/* line 51, ../../sass/find-me.scss */
+body #content {
+  margin: 0px;
+  padding: 50px 0px;
+}
+/* line 55, ../../sass/find-me.scss */
+body .jumbotron-index {
+  background-color: #9d261d;
+  border: 1px solid #bb2d23;
+  border-width: 2px 0px 0px;
+  /** carousel **/
+}
+/* line 60, ../../sass/find-me.scss */
+body .jumbotron-index .carousel {
+  height: auto;
+  background: transparent;
+  position: relative;
+  margin-bottom: 25px;
+}
+/* line 69, ../../sass/find-me.scss */
+body .jumbotron-index .carousel .active.left, body .jumbotron-index .carousel .active.right {
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  z-index: 2;
+}
+/* line 75, ../../sass/find-me.scss */
+body .jumbotron-index .carousel .next, body .jumbotron-index .carousel .prev {
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  z-index: 1;
+}
+/* line 80, ../../sass/find-me.scss */
+body .jumbotron-index .carousel .item {
+  height: auto;
+  background: transparent;
+  padding: 30px 25px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 91, ../../sass/find-me.scss */
+body .jumbotron-index .carousel .carousel-indicators {
+  top: auto;
+  bottom: 0px;
+}
+/* line 97, ../../sass/find-me.scss */
+body #home-content {
+  margin: 30px 0px 0px;
+}
+/* line 99, ../../sass/find-me.scss */
+body #home-content .row {
+  text-align: center;
+}
+/* line 102, ../../sass/find-me.scss */
+body #home-content .row .col-md-4 div {
+  background: #f2f2f2;
+  padding: 10px 20px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+/* line 108, ../../sass/find-me.scss */
+body #home-content .row h3 {
+  color: #872119;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* line 115, ../../sass/find-me.scss */
+body .row .btn {
+  background-color: #872119;
+  border-color: #872119;
+  color: #fff;
+}
+/* line 119, ../../sass/find-me.scss */
+body .row .btn:hover {
+  background-color: #721c15;
+}
+/* line 122, ../../sass/find-me.scss */
+body .row .btn.btn-search {
+  color: #333;
+  background-color: #ffffff;
+  border-color: #adadad;
+}
+/* line 126, ../../sass/find-me.scss */
+body .row .btn.btn-search:hover {
+  background-color: #ebebeb;
+}
+/* line 132, ../../sass/find-me.scss */
+body #thread-content {
+  margin: 30px 0px 0px;
+}
+/* line 134, ../../sass/find-me.scss */
+body #thread-content .threads {
+  margin: 30px 0px 0px;
+  clear: both;
+}
+/* line 140, ../../sass/find-me.scss */
+body #thread-content table tr td {
+  color: #666;
+}
+/* line 142, ../../sass/find-me.scss */
+body #thread-content table tr td small {
+  color: #c9c9c9;
+}
+/* line 145, ../../sass/find-me.scss */
+body #thread-content table tr td.thread-status {
+  vertical-align: middle;
+}
+/* line 152, ../../sass/find-me.scss */
+body #add-new {
+  margin: 30px 0px 0px;
+}
+/* line 154, ../../sass/find-me.scss */
+body #add-new .bounty-field {
+  display: none;
+}
+/* line 157, ../../sass/find-me.scss */
+body #add-new h2 {
+  color: #9d261d;
+  padding-bottom: 25px;
+  font-size: 26px;
+}
+/* line 165, ../../sass/find-me.scss */
+body .post-box h4 .label {
+  font-size: 10px;
+  vertical-align: middle;
+}
+/* line 172, ../../sass/find-me.scss */
+body .row.question-box {
+  display: block;
+  margin: 20px 0px;
+  border: 1px solid #c83025;
+  background: #fcf1f0;
+}
+/* line 177, ../../sass/find-me.scss */
+body .row.question-box .col-md-1, body .row.question-box .col-md-11 {
+  padding: 15px;
+  font-size: 13px;
+}
+/* line 181, ../../sass/find-me.scss */
+body .row.question-box .col-md-11 {
+  background: #fff;
+  min-height: 95px;
+}
+/* line 184, ../../sass/find-me.scss */
+body .row.question-box .col-md-11 .post-tags {
+  margin: 0px;
+  padding: 7px 0px 0px;
+  font-size: 12px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 190, ../../sass/find-me.scss */
+body .row.question-box .col-md-11 .muted {
+  color: #c9c9c9;
+  font-size: 11px;
+}
+/* line 196, ../../sass/find-me.scss */
+body .row.comment-box {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 20px 0px;
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+}
+/* line 203, ../../sass/find-me.scss */
+body .row.comment-box:hover {
+  border-color: #b3b3b3;
+  background: #f2f2f2;
+}
+/* line 207, ../../sass/find-me.scss */
+body .row.comment-box .col-md-1, body .row.comment-box .col-md-11 {
+  padding: 15px;
+}
+/* line 210, ../../sass/find-me.scss */
+body .row.comment-box .col-md-1 {
+  font-size: 11px;
+}
+/* line 213, ../../sass/find-me.scss */
+body .row.comment-box .col-md-11 {
+  background: #fff;
+  height: 100%;
+}
+/* line 216, ../../sass/find-me.scss */
+body .row.comment-box .col-md-11 .comment-date {
+  padding-top: 10px;
+  color: #c9c9c9;
+  font-size: 11px;
+}
+/* line 223, ../../sass/find-me.scss */
+body .row.comment-box .btn.answer-button {
+  position: absolute;
+  left: -20px;
+  bottom: -10px;
+  background-color: #47a447;
+  border-color: #398439;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 230, ../../sass/find-me.scss */
+body .row.comment-box .btn.answer-button:hover {
+  background-color: #398439;
+}
+/* line 237, ../../sass/find-me.scss */
+body .row.comment-box:hover .btn.answer-button {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 242, ../../sass/find-me.scss */
+body .row.comment-box .correct-answer {
+  position: absolute;
+  left: -12px;
+  top: -10px;
+  background-color: #ff9900;
+  border-color: #398439;
+  color: #fff;
+  padding: 7px 5px;
+  font-size: 12px;
+}
+/* line 254, ../../sass/find-me.scss */
+body #footer {
+  text-align: center;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+/* line 261, ../../sass/find-me.scss */
+body .icon-eye.badge-blue {
+  color: #0066cc;
+}
+/* line 264, ../../sass/find-me.scss */
+body .icon-eye.badge-green {
+  color: #336600;
+}
+/* line 267, ../../sass/find-me.scss */
+body .icon-eye.badge-orange {
+  color: #ff6600;
+}
+/* line 270, ../../sass/find-me.scss */
+body .icon-eye.badge-red {
+  color: #cc0000;
+}
+/* line 273, ../../sass/find-me.scss */
+body .icon-eye.badge-black {
+  color: #000000;
+}
+/* line 278, ../../sass/find-me.scss */
+body .icon-bullseye.badge-bronze {
+  color: #996633;
+}
+/* line 281, ../../sass/find-me.scss */
+body .icon-bullseye.badge-silver {
+  color: #999999;
+}
+/* line 284, ../../sass/find-me.scss */
+body .icon-bullseye.badge-gold {
+  color: #ffcc33;
+}
+/* line 289, ../../sass/find-me.scss */
+body .icon-award.badge-gray {
+  color: #cccccc;
+}
+/* line 292, ../../sass/find-me.scss */
+body .icon-award.badge-silver {
+  color: #999999;
+}
+/* line 295, ../../sass/find-me.scss */
+body .icon-award.badge-yellow {
+  color: #f7d654;
+}
+/* line 298, ../../sass/find-me.scss */
+body .icon-award.badge-gold {
+  color: #ffcc33;
+}

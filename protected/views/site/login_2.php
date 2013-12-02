@@ -1,0 +1,2 @@
+<a href="https://api.tagbond.com/oauth?client_id=<?php echo Yii::app()->params['client_id']; ?>&redirect_uri=<?php echo Yii::app()->params['redirect_uri'];?>&state=<?php echo Yii::app()->params['state']?>&response_type=code&scope=user.credits">Login with tagbond</a>
+                          

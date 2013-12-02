@@ -1,0 +1,106 @@
+.loginTagbond {
+        font-weight: bolder ;
+        color: #ffffff !important;
+        /*line-height: 50px;*/
+        margin-top: 10px;
+}
+.logoutTagbond {
+    color: #ffffff !important;
+    /*line-height: 50px;*/
+    margin-top: 10px;
+    border-radius: 25px;
+    padding:5px;
+}
+.tagbondName{
+    color:#fff;
+    line-height: 3;
+    margin-right: 10px;
+    /*position: absolute;*/
+    /*top: 120;*/
+    /*right:170px;*/
+}
+.tagbondName a{
+  background: transparent !important  ;
+}
+
+/************Author box*/
+.author-box{
+    position: relative;
+    margin:10px 20px 10px 0px;
+    float:right;
+}    
+    .author-box .profile-pic{
+        width:50px;
+        height:50px;
+        border: 1px solid black;
+        margin-right:10px;
+    }
+    .author-box .profile-name{
+        vertical-align:top;
+    }
+    .author-box .post-date{
+        font-size:10px;
+        color:#A0A0A0;
+    }
+    .author-box:after{
+        clear:both;
+    }
+.clear{
+    clear:both;
+}
+.comment-box .post-content{
+    font-size: .9em;
+}
+.comment-box .author-box{
+    width:200px;
+}
+ul.pagination .first, ul.pagination .last {
+display: none;
+}
+
+.qmarks {
+        position:relative;
+        z-index:20;
+        padding-left: 10px;
+        text-decoration:none;
+    }
+
+    .qmarks span {display:none;
+    }
+
+    .qmarks:hover { z-index:21;
+    }
+
+
+    .qmarks:hover span {
+          display:block;
+          position: absolute;
+          width: 200px;
+          height: auto;
+          line-height: 20px;
+          padding: 10px;
+          font-size: 14px;
+          text-align: center;
+          color: rgb(255, 255, 255);
+          background: rgb(115, 115, 115);
+          border: 0px solid rgb(255, 255, 255);
+          border-radius: 10px;
+          text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+          left: -78px;
+          bottom: 36px;
+          text-decoration:none;
+        font-weight: lighter;
+    }
+
+    .qmarks:hover:after{
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-width: 10px;
+          border-style: solid;
+          border-color: #737373 transparent transparent transparent;
+          top: -20px;
+          left: 10px;
+    }

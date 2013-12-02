@@ -1,0 +1,17 @@
+
+.icon-glass:before { content: '\e803'; } /* '' */
+.icon-diamond:before { content: '\e80d'; } /* '' */
+.icon-star:before { content: '\e801'; } /* '' */
+.icon-star-empty:before { content: '\e802'; } /* '' */
+.icon-user:before { content: '\e808'; } /* '' */
+.icon-eye:before { content: '\e807'; } /* '' */
+.icon-gamepad:before { content: '\e804'; } /* '' */
+.icon-target:before { content: '\e805'; } /* '' */
+.icon-search:before { content: '\e809'; } /* '' */
+.icon-bullseye:before { content: '\e806'; } /* '' */
+.icon-eye-1:before { content: '\e80b'; } /* '' */
+.icon-compass:before { content: '\e80a'; } /* '' */
+.icon-right-circled:before { content: '\e80c'; } /* '' */
+.icon-search-1:before { content: '\e80f'; } /* '' */
+.icon-eye-2:before { content: '\e80e'; } /* '' */
+.icon-award:before { content: '\e800'; } /* '' */

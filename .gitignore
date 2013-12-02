@@ -1,0 +1,29 @@
+/assets/*
+/protected/runtime/*
+/protected/runtime/application.log	
+# Can ignore specific files
+Thumbs.db
+nbproject
+nl.sh
+/protected/config/main.php
+/index-test.php
+# Use wildcards as well
+*.log
+*.log.1
+*.log.2
+*.log.3
+*.log.4
+*.log.5
+*.log.6
+*.php.swp
+*.php~
+*.js~
+*.css~
+*.less~
+*.html~
+*.htm~
+*.gitignore~
+*.htaccess~
+# Development Specifics
+*.orig
+*~
